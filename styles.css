@@ -1,0 +1,99 @@
+/* Reset and Base */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: url('bg5.jpg') no-repeat center center fixed;
+  background-size: cover;
+  color: #333;
+  line-height: 1.6;
+}
+
+h1, h2 {
+  text-align: center;
+  color: #222;
+}
+
+h1 {
+  font-size: 2.5rem;
+  margin: 20px 0;
+}
+
+h2 {
+  font-size: 1.8rem;
+  margin: 15px 0;
+}
+
+/* Container & Boxes */
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 40px;
+  justify-content: center;
+  padding: 20px;
+}
+
+.box-1, .box-2 {
+  background: rgba(255, 255, 255, 0.9);
+  border-radius: 10px;
+  padding: 20px;
+  flex: 1 1 400px;
+  min-width: 300px;
+}
+
+.box-2 img {
+  display: block;
+  margin: 0 auto 15px;
+  max-width: 100%;
+  border-radius: 8px;
+}
+
+/* Forms */
+input[type="text"], input[type="search"] {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0 20px;
+  border: 2px solid #ccc;
+  border-radius: 8px;
+  font-size: 1rem;
+  transition: 0.3s;
+}
+
+input:focus {
+  border-color: #ff69b4;
+  background-color: #fff0f5;
+  outline: none;
+}
+
+/* Links & Buttons */
+a {
+  color: #1a73e8;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Lists */
+ol, ul {
+  margin-left: 20px;
+  padding-left: 10px;
+}
+
+li {
+  margin: 5px 0;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .container {
+    flex-direction: column;
+    padding: 10px;
+  }
+}
