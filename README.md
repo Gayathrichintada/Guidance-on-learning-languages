@@ -1,8 +1,6 @@
 # Guidance-on-learning-languages
 its a platform which gives guidance to learn languages with user-friendly interface
-# Guidance on Learning Languages
-
-**Guidance on Learning Languages** is a static web project that helps users explore programming languages and web technologies. It provides structured guidance through multiple pages for different languages.  
+It is a static web project that helps users explore programming languages and web technologies. It provides structured guidance through multiple pages for different languages.  
 
 ---
 
